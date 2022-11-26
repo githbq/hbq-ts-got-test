@@ -1,6 +1,6 @@
- import('ts-node/register')
+import "ts-node/register";
 
- import('./src/index.ts')
-     //tsconfig 帮助文档地址
-     //https://zhongsp.gitbooks.io/typescript-handbook/content/doc/handbook/tsconfig.json.html
-     //https://tslang.cn/docs/handbook/compiler-options.html
+import "./src/index.ts";
+//tsconfig 帮助文档地址
+//https://zhongsp.gitbooks.io/typescript-handbook/content/doc/handbook/tsconfig.json.html
+//https://tslang.cn/docs/handbook/compiler-options.html
