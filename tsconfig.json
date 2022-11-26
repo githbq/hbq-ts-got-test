@@ -1,8 +1,8 @@
 {
     "compilerOptions": {
         "target": "es2017",
-        "module": "commonjs",
-        "moduleResolution": "node",
+        "module": "ESNext",
+        "moduleResolution": "NodeNext",
         "declaration": true,
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
@@ -15,14 +15,24 @@
         "strictNullChecks": false,
         "allowUnreachableCode": true,
         "newLine": "LF",
-        "lib": ["es2017"],
-        "typeRoots": ["node_modules/@types"],
-        "types": ["jest", "node"],
+        "lib": [
+            "es2017"
+        ],
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "types": [ 
+            "node"
+        ],
         "outDir": "./build",
         "rootDir": "./src"
     },
-    "include": ["./src/**/*"],
-    "exclude": ["**/node_modules/**/*"],
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "**/node_modules/**/*"
+    ],
     "compileOnSave": false,
     "buildOnSave": false
 }
